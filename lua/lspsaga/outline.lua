@@ -318,6 +318,8 @@ function ot:update_outline(symbols)
   end, {
     buffer = buf,
   })
+
+  ot:jump_to_line(current_buf)
 end
 
 function ot:preview_events()
